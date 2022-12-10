@@ -11,7 +11,7 @@ with open("CarParkPos1" , "rb") as f:
     posList = pickle.load(f)
 
 
-width, heigth = 107, 48
+#width, heigth = 107, 48
 
 try:
     cap = cv2.VideoCapture(URL+":81/stream")  
